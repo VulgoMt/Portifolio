@@ -10,12 +10,12 @@
 body{
     font-size: 100%;
     color: aliceblue;
-    background-color: rgb(19, 1, 37);
+    background-color: rgb(22, 3, 43);
 }
 
 .cabecalho{
     padding: 30px;
-    background-color: rgba(0, 0, 0, 0.356);
+    background-color: rgba(253, 248, 248, 0.103);
 }
 .cabecalho-conteudo{
     display: flex;
@@ -28,11 +28,11 @@ body{
 }
 .menu{
     display: flex;
-    gap: 30px;
+    gap: 40px;
     font-weight: 400;
     font-size:18px ;
 }
-.button{
-    background-color: rgba(87, 72, 72, 0.582);
-    border-radius: 5px;
+.icon{
+display: flex;
+gap: 20px;
 }
