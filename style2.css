@@ -1,0 +1,38 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: rgba(240, 248, 255, 0.651);
+    
+}
+body{
+    font-size: 100%;
+    color: aliceblue;
+    background-color: rgb(19, 1, 37);
+}
+
+.cabecalho{
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.356);
+}
+.cabecalho-conteudo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo{
+    height: 120px;
+}
+.menu{
+    display: flex;
+    gap: 30px;
+    font-weight: 400;
+    font-size:18px ;
+}
+.button{
+    background-color: rgba(87, 72, 72, 0.582);
+    border-radius: 5px;
+}
